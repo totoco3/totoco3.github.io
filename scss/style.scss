@@ -1,4 +1,5 @@
 @import "_reset.scss";
+@import "_mixin.scss";
 
 body{
     height: 2000px;
@@ -80,10 +81,10 @@ header{
     }
     h2{
         text-align: center;
-        font-size: 55px;
+        @include font-size(40);
         margin-bottom: 40px;
     }
     .content>p{
-        font-size: 20px;
+        @include font-size(20);
         line-height: 2;
     }
